@@ -466,9 +466,9 @@ hr {
     position: absolute;
     bottom: 12vh;
     right: -62.5vw;
-/*     width: 28vw; */
+    width: 28vw;
     opacity: 1;
-    transform: translateX(-50%);
+/*     transform: translateX(-50%); */
     transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93);
 }
 
