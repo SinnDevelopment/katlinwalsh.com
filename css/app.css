@@ -474,11 +474,16 @@ hr {
 
 .featured-image {
     width: 40vh;
-    right: 50%;
+    bottom:12vh;
     opacity: 1;
+      -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translate3d(0, 0, 0);
     transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93);
     padding-bottom: 1vw;
+    overflow:visible;
 }
 
 .featured-video {
